@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasta - Online Food Delivery</title>
+    <style>
+        /* Inherit styles from main */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #ff5722;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        .section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .menu-items {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .item {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            height: 350px;
+            text-align: center;
+        }
+
+        .item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .item h3 {
+            margin: 15px 0 10px;
+            font-size: 1.5rem;
+            color: #ff5722;
+        }
+
+        .item p {
+            margin: 10px 0 0;
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        footer {
+            background-color: #ff5722;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+
+    <section id="pasta" class="section">
+        <h2>Our Pasta Collection</h2>
+        <div class="menu-items">
+            <!-- Pasta Items -->
+            <div class="item">
+                <img src="https://cdn.pixabay.com/photo/2015/04/08/13/13/pasta-712664_640.jpg" alt="Carbonara Pasta">
+                <h3>Carbonara Pasta</h3>
+                <p>$13.99</p>
+            </div>
+            <div class="item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkIw_12KPBx6lW8eW9erOM7dpEUDdidT7eTA&s" alt="Arrabbiata Pasta">
+                <h3>Arrabbiata Pasta</h3>
+                <p>$12.99</p>
+            </div>
+            <div class="item">
+                <img src="https://www.foodandwine.com/thmb/Mgm2FA2wprdnvhHvd4kbGG01ie8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Pasta-Bolognese-FT-RECIPE0822-2000-7f0b9f0780c2489eb9aeea1926a8b14a.jpg" alt="Bolognese Pasta">
+                <h3>Bolognese Pasta</h3>
+                <p>$14.99</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Online Food Delivery. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Food Delivery</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #ff5722;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        /* Section Styles */
+        .section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        /* Menu Items */
+        .menu-items, .offer-items, .food-items, .service-items {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .item, .offer, .food, .service {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+        }
+
+        .item h3, .offer h3, .food h3, .service h3 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: #ff5722;
+        }
+
+        .item p, .offer p, .food p, .service p {
+            margin: 10px 0 0;
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        /* Image Styling */
+        .item img, .offer img, .food img, .service img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #ff5722;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Online Food Delivery</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#offers">Offers</a></li>
+                <li><a href="#foods">Foods</a></li>
+                <li><a href="#services">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="menu" class="section">
+        <h2>Menu</h2>
+        <div class="menu-items">
+            <div class="item">
+                <a href="pizza.html">
+                    <img src="https://img.freepik.com/premium-photo/real-pizza-with-baked-hot-generative-ai_74760-1918.jpg" alt="Pizza">
+                    <h3>Pizza</h3>
+                    <p>$10.99</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="burger.html">
+                    <img src="https://t4.ftcdn.net/jpg/06/57/80/47/360_F_657804782_n3vXAczr4d0wQr85oJpGauohAGVwhytv.jpg" alt="Burger">
+                    <h3>Burger</h3>
+                    <p>$5.99</p>
+                </a>
+            </div>
+            <div class="item">
+                <a href="pasta.html">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-po3QUux-ayCI-wSSUPKUHHgJJHG72oKuR12wfb5J3aG1hYH3uT5EOLlezWRHFVY-sz0&usqp=CAU" alt="Pasta">
+                    <h3>Pasta</h3>
+                    <p>$8.99</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="offers" class="section">
+        <h2>Special Offers</h2>
+        <div class="offer-items">
+            <div class="offer">
+                <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/pizza-delivery-special-offer-design-template-3a68dfac304ba909ed3aba873de3be34_screen.jpg?ts=1606224244" alt="Pizza Offer">
+                <h3>20% off on all pizzas!</h3>
+            </div>
+            <div class="offer">
+                <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/burger-offer-banner-design-template-77c620c2c2e2ac0ef6d131f8ff7ee413_screen.jpg?ts=1650879185" alt="Burger Offer">
+                <h3>Buy 1 Burger, Get 1 Free</h3>
+            </div>
+            <div class="offer">
+                <img src="https://orderlina.com/wp-content/uploads/2021/02/last-mile-delivery-min.jpg" alt="Free Delivery">
+                <h3>Free Delivery for orders over $30</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="foods" class="section">
+        <h2>Popular Foods</h2>
+        <div class="food-items">
+            <div class="food">
+                <img src="https://www.shutterstock.com/image-photo/stock-image-very-cheesy-pizza-260nw-1575871999.jpg" alt="Cheese Pizza">
+                <h3>Cheese Pizza</h3>
+                <p>$12.99</p>
+            </div>
+            <div class="food">
+                <img src="https://vaya.in/recipes/wp-content/uploads/2018/06/Grilled-Chicken-Sandwich.jpg" alt="Grilled Chicken Sandwich">
+                <h3>Grilled Chicken Sandwich</h3>
+                <p>$7.99</p>
+            </div>
+            <div class="food">
+                <img src="https://itdoesnttastelikechicken.com/wp-content/uploads/2016/01/rainbow-power-greens-salad-with-black-eyed-peas2.jpg" alt="Vegan Salad">
+                <h3>Vegan Salad</h3>
+                <p>$6.99</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Our Services</h2>
+        <div class="service-items">
+            <div class="service">
+                <img src="https://img.freepik.com/premium-vector/trendy-minimalistic-food-delivery-service-online-food-order-application-banner-design-template_420121-273.jpg" alt="Fast Delivery">
+                <h3>Fast Delivery</h3>
+                <p>Get your food in 30 minutes or less!</p>
+            </div>
+            <div class="service">
+                <img src="https://www.kapturecrm.com/blog/wp-content/uploads/2019/06/ss.jpg" alt="24/7 Support">
+                <h3>24/7 Support</h3>
+                <p>We're here to help you any time, any day.</p>
+            </div>
+            <div class="service">
+                <img src="https://media.istockphoto.com/id/952625246/photo/agrocery-delivery-man-delievering-food-to-a-woman-at-home.jpg?s=612x612&w=0&k=20&c=18uhRrW8PaJ4cuQQKyAPHVjcfuiSqB6nRnXVoTutIhw=" alt="Quality Ingredients">
+                <h3>Quality Ingredients</h3>
+                <p>We use only the freshest and finest ingredients.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Online Food Delivery. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
